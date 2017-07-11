@@ -12,7 +12,6 @@ import {
 export class UserItemComponent implements OnInit {
   @Input() name: String;
 
-
   constructor() {
     // this.name = 'Fuck';
   }
