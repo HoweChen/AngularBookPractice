@@ -1,7 +1,15 @@
 <form action="ui large form segment">
-  <h3 class="ui header">Add a link
-    <div class="field">
-      label
-    </div>
-  </h3>
+  <h3 class="ui header">Add a link</h3>
+
+  <div class="field">
+    <label for="title">Title:</label>
+    <input name="title" #newtitle>
+  </div>
+  <div class="field">
+    <label for="link">Link:</label>
+    <input name="link" #newlink>
+  </div>
+  <button type="submit" (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">
+    Submit Link
+  </button>
 </form>
