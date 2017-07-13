@@ -1,5 +1,5 @@
 # Angular2
-
+![](2017-07-14-01-31-29.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
 ## Development server
