@@ -1,4 +1,4 @@
-<form action="ui large form segment">
+<form class="ui large form segment">
   <h3 class="ui header">Add a link</h3>
 
   <div class="field">
@@ -8,11 +8,19 @@
   <div class="field">
     <label for="link">Link:</label>
     <input name="link" #newlink>
-    <button type="submit" (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">
-      Submit Link
-    </button>
-  </div>
-  
 
-  <app-article></app-article>
+  </div>
+  <button type="submit" (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">
+      Submit Link
+  </button>
 </form>
+
+<!-- <form class="ui large form segment">
+  <h3 class="ui header">Add a Link</h3>
+
+  <div class="field"> <label for="title">Title:</label> <input name="title"> </div>
+  <div class="field"> <label for="link">Link:</label> <input name="link"> </div>
+</form> -->
+<div class="ui grid posts">
+  <app-article></app-article>
+</div>
