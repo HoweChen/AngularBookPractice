@@ -22,5 +22,6 @@
   <div class="field"> <label for="link">Link:</label> <input name="link"> </div>
 </form> -->
 <div class="ui grid posts">
-  <app-article></app-article>
+  <!-- <app-article></app-article> -->
+  <app-article *ngFor="let foobar of sortedArticles()" [article]="foobar"></app-article>
 </div>
