@@ -6,6 +6,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { FakeRedditComponent } from './fake-reddit/fake-reddit.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FakeRedditComponent } from './fake-reddit/fake-reddit.component';
     HelloWorldComponent,
     UserItemComponent,
     UserListComponent,
-    FakeRedditComponent
+    FakeRedditComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule

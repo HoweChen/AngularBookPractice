@@ -8,8 +8,11 @@
   <div class="field">
     <label for="link">Link:</label>
     <input name="link" #newlink>
+    <button type="submit" (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">
+      Submit Link
+    </button>
   </div>
-  <button type="submit" (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">
-    Submit Link
-  </button>
+  
+
+  <app-article></app-article>
 </form>
